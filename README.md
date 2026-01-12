@@ -2,43 +2,95 @@
 PDF-OCR-Tool was built out of frustration with the lack of reliable tools for extracting text and exporting specific images from PDFs. Designed for accuracy and ease of use,it enables OCR-based text extraction and image export in one place. Built with the help of Gemini AI. Disclaimer: OCR results may occasionally differ from the original PDF text.
 
 
-PDF & OCR Tool (Professional Edition)
-Version: 1.0.0
-Created by: VincentVinnexGeminiAI
----------------------------------------------------------
+<h1 align="center">📄 PDF & OCR Tool (Professional Edition)</h1>
 
-DESCRIPTION:
-This tool allows you to view PDFs, export pages as high-quality images, 
-and convert images into editable text (OCR) using advanced AI.
+<p align="center">
+  <strong>Version:</strong> 1.0.0<br>
+  <strong>Created by:</strong> VincentVinnex × Gemini AI
+</p>
 
-FEATURES:
-- Dark Mode.
-- Bulk export to PNG/JPG/TIFF.
-- OCR to Text (.txt) or Word (.docx).
-- Dual Language Support (English, Hindi, etc.).
-- Merge multiple pages into a single document.
+<hr>
 
-INSTALLATION REQUIREMENTS:
-1. No installation required for this tool. Just run 'PDF-OCR-Tool.exe'.
-2. You can use this command (pip install PyQt6 PyMuPDF pytesseract Pillow python-docx) or You can use the command (pip install -r requirements.txt) 
-3. CRITICAL: This tool requires the Tesseract OCR engine to "read" text.
-   If OCR does not work, please install Tesseract from here:
-   https://github.com/UB-Mannheim/tesseract/wiki
-   (Install to default location: C:\Program Files\Tesseract-OCR)
+<h2>🧾 Description</h2>
+<p>
+PDF & OCR Tool is a powerful desktop application designed to simplify working with PDF files.
+It allows users to view PDFs, export pages as high-quality images, and convert images or scanned PDFs
+into editable text using advanced OCR technology.
+</p>
 
-HOW TO ADD FONTS/LANGUAGES:
-To read languages other than English:
-1. Download the .traineddata file for your language.
-2. Place it in: C:\Program Files\Tesseract-OCR\tessdata
-3. Restart this app.
+<p><strong>Disclaimer:</strong> Due to OCR limitations, some extracted words may not exactly match the original PDF content.</p>
 
+<hr>
 
-Common Issues & Fixes
+<h2>✨ Features</h2>
+<ul>
+  <li>🌙 Dark Mode interface</li>
+  <li>📦 Bulk export to PNG / JPG / TIFF</li>
+  <li>🧠 OCR to Text (.txt) or Word (.docx)</li>
+  <li>🌐 Dual language support (English, Hindi, and more)</li>
+  <li>📑 Merge multiple pages into a single document</li>
+</ul>
 
-   Error: "python is not recognized..."
-     Cause: You forgot to check "Add Python to PATH".
-       Fix: Uninstall Python, restart your computer, and reinstall it (don't forget the checkbox!).
+<hr>
 
-   OCR Button crashes the app or says "Tesseract not found"
-     Cause: Tesseract isn't installed in the default folder.
-       Fix: Reinstall Tesseract (Step 2) and make sure it goes to C:\Program Files\Tesseract-OCR.
+<h2>⚙️ Installation Requirements</h2>
+<ul>
+  <li>No installation required — simply run <code>PDF-OCR-Tool.exe</code></li>
+  <li>For source usage, install dependencies:</li>
+</ul>
+
+<pre>
+pip install PyQt6 PyMuPDF pytesseract Pillow python-docx
+</pre>
+
+<p>or</p>
+
+<pre>
+pip install -r requirements.txt
+</pre>
+
+<p><strong>CRITICAL:</strong> This tool requires the Tesseract OCR engine.</p>
+
+<p>
+If OCR does not work, install Tesseract from:<br>
+<a href="https://github.com/UB-Mannheim/tesseract/wiki" target="_blank">
+https://github.com/UB-Mannheim/tesseract/wiki
+</a>
+</p>
+
+<p>
+Install to the default location:<br>
+<code>C:\Program Files\Tesseract-OCR</code>
+</p>
+
+<hr>
+
+<h2>🌍 Adding Languages / Fonts</h2>
+<ol>
+  <li>Download the <code>.traineddata</code> file for your language</li>
+  <li>Place it in:<br>
+    <code>C:\Program Files\Tesseract-OCR\tessdata</code>
+  </li>
+  <li>Restart the application</li>
+</ol>
+
+<hr>
+
+<h2>🛠 Common Issues & Fixes</h2>
+
+<h3>❌ Error: "python is not recognized"</h3>
+<p><strong>Cause:</strong> Python was not added to PATH.</p>
+<p><strong>Fix:</strong> Uninstall Python, restart your PC, and reinstall it while checking <em>"Add Python to PATH"</em>.</p>
+
+<h3>❌ OCR crashes or says "Tesseract not found"</h3>
+<p><strong>Cause:</strong> Tesseract is not installed in the default directory.</p>
+<p><strong>Fix:</strong> Reinstall Tesseract and ensure it is installed at:</p>
+<pre>
+C:\Program Files\Tesseract-OCR
+</pre>
+
+<hr>
+
+<p align="center">
+  🚀 Built for speed, accuracy, and productivity
+</p>
