@@ -1,6 +1,3 @@
-# PDF-OCR-Tool
-PDF-OCR-Tool was built out of frustration with the lack of reliable tools for extracting text and exporting specific images from PDFs. Designed for accuracy and ease of use,it enables OCR-based text extraction and image export in one place. Built with the help of Gemini AI. Disclaimer: OCR results may occasionally differ from the original PDF text.
-
 
 <h1 align="center">📄 PDF & OCR Tool (Professional Edition)</h1>
 
@@ -13,9 +10,7 @@ PDF-OCR-Tool was built out of frustration with the lack of reliable tools for ex
 
 <h2>🧾 Description</h2>
 <p>
-PDF & OCR Tool is a powerful desktop application designed to simplify working with PDF files.
-It allows users to view PDFs, export pages as high-quality images, and convert images or scanned PDFs
-into editable text using advanced OCR technology.
+PDF-OCR-Tool was built out of frustration with the lack of reliable tools for extracting text and exporting specific images from PDFs. Designed for accuracy and ease of use,it enables OCR-based text extraction and image export in one place. Built with the help of Gemini AI. Disclaimer: OCR results may occasionally differ from the original PDF text.
 </p>
 
 <p><strong>Disclaimer:</strong> Due to OCR limitations, some extracted words may not exactly match the original PDF content.</p>
