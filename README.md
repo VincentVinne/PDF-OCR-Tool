@@ -6,7 +6,7 @@ PDF-OCR-Tool was built out of frustration with the lack of reliable tools for ex
 
 <p align="center">
   <strong>Version:</strong> 1.0.0<br>
-  <strong>Created by:</strong> VincentVinnex × Gemini AI
+  <strong>Created by:</strong> VincentVinne × Gemini AI
 </p>
 
 <hr>
